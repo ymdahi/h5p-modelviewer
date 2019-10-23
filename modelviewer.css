@@ -1,0 +1,14 @@
+.h5p-modelview {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #ccc;
+}
+.h5p-modelview .modelviewer-file {
+    padding: 20px;
+}
+.h5p-modelview .modelviewer-description {
+    padding: 20px;
+    color: red;
+}
