@@ -25,8 +25,8 @@ H5P.ModelViewer = (function ($) {
     // container.  Allows for styling later.
     $container.addClass("h5p-modelviewer");
     // Add model if provided.
-    if (this.options.file && this.options.file.path) {
-      $container.append('<div class="modelviewer-file" data-filepath="' + H5P.getPath(this.options.file.path, this.id) + '"><p>Path: ' + H5P.getPath(this.options.file.path, this.id) + '</p></div>');
+    if (this.options.modelFile && this.options.modelFile.path) {
+      $container.append('<div class="modelviewer-file" data-filepath="' + H5P.getPath(this.options.modelFile.path, this.id) + '"><p>Path: ' + H5P.getPath(this.options.modelFile.path, this.id) + '</p></div>');
     }
     // Add model description.
     $container.append('<p class="modelviewer-description">' + this.options.modelDescription + '</p>');
