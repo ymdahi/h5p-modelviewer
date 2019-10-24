@@ -282,4 +282,4 @@ OBJLoader2.prototype._onAssetAvailable = function ( payload ) {
 
 };
 
-export { OBJLoader2 };
+// export { OBJLoader2 };
