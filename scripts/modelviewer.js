@@ -34,7 +34,9 @@ H5P.ModelViewer = (function ($, THREE) {
     // Add model viewer region
     $container.append('<div id="stl_cont"></div>');
 
-    var stl_viewer = new StlViewer(document.getElementById("stl_cont"), { models: [ {id:0, filename:H5P.getPath(this.options.modelFile.path} ] });
+    var filepath = H5P.getPath(this.options.modelFile.path, this.id);
+
+    var stl_viewer = new StlViewer(document.getElementById("stl_cont"), { models: [ {id:0, filename:filepath} ] });
 
     
 
