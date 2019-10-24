@@ -15,7 +15,7 @@
     "preloadedJs": [
       { "path": "modelviewer.js" },
       { "path": "OrbitControls.js" },
-      { "path": "OBJLoader.js" }
+      { "path": "OBJLoader2.js" }
     ],
     
     "preloadedCss": [
