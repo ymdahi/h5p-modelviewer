@@ -13,10 +13,13 @@
       "minorVersion": 0
     },
     "preloadedJs": [
-      { "path": "modelviewer.js" }
+      { "path": "modelviewer.js" },
+      { "path": "OrbitControls.js" },
+      { "path": "OBJLoader.js" }
     ],
+    
     "preloadedCss": [
-      {"path": "modelviewer.css"}
+      { "path": "modelviewer.css" }
     ],
     "preloadedDependencies": [
       {

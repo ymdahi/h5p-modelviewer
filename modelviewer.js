@@ -34,9 +34,6 @@ H5P.ModelViewer = (function ($) {
     // Add model viewer region
     $container.append('<div id="modelviewer-viewer"></div>');
 
-    import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r108/examples/jsm/controls/OrbitControls.js';
-    import {OBJLoader2} from 'https://threejsfundamentals.org/threejs/resources/threejs/r108/examples/jsm/loaders/OBJLoader2.js';
-
     function main() {
       const canvas = document.querySelector('#modelviewer-viewer');
       const renderer = new THREE.WebGLRenderer({canvas});
