@@ -12,3 +12,8 @@
     padding: 20px;
     color: red;
 }
+
+#stl_cont {
+    width:100%;
+    min-width: 400px;
+}

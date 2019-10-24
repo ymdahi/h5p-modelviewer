@@ -13,18 +13,18 @@
       "minorVersion": 0
     },
     "preloadedJs": [
-      { "path": "modelviewer.js" },
-      { "path": "OrbitControls.js" },
-      { "path": "OBJLoader2.js" }
+      { "path": "scripts/modelviewer.js" },
+      { "path": "scripts/stl_viewer.min.js" },
+      { "path": "scripts/parser.min.js" },
+      { "path": "scripts/load_stl.min.js" },
+      { "path": "scripts/webgl_detector.js" },
+      { "path": "scripts/CanvasRenderer.js" },
+      { "path": "scripts/OrbitControls.js" },
+      { "path": "scripts/TrackballControls.js" },
+      { "path": "scripts/Projector.js" },
+      { "path": "scripts/three.min.js" }
     ],
     "preloadedCss": [
       { "path": "modelviewer.css" }
-    ],
-    "preloadedDependencies": [
-      {
-        "machineName": "H5P.ThreeJS",
-        "majorVersion": 1,
-        "minorVersion": 0
-      }
     ]
   }
