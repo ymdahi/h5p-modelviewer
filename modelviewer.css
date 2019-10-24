@@ -1,6 +1,6 @@
 .h5p-modelviewer {
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    min-height: 400px;
     margin: 0 auto;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 4px #ccc;

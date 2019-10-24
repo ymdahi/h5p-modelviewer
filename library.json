@@ -17,5 +17,12 @@
     ],
     "preloadedCss": [
       {"path": "modelviewer.css"}
+    ],
+    "preloadedDependencies": [
+      {
+        "machineName": "H5P.ThreeJS",
+        "majorVersion": 1,
+        "minorVersion": 0
+      }
     ]
   }
