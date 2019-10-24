@@ -32,7 +32,7 @@ H5P.ModelViewer = (function ($) {
     $container.append('<p class="modelviewer-description">' + this.options.modelDescription + '</p>');
 
     // Add model viewer region
-    $container.append('<div id="modelviewer-viewer"></div>')
+    $container.append('<div id="modelviewer-viewer"></div>');
 
     import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r108/examples/jsm/controls/OrbitControls.js';
     import {OBJLoader2} from 'https://threejsfundamentals.org/threejs/resources/threejs/r108/examples/jsm/loaders/OBJLoader2.js';
