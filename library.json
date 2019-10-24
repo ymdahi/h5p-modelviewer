@@ -13,7 +13,6 @@
       "minorVersion": 0
     },
     "preloadedJs": [
-      { "path": "scripts/modelviewer.js" },
       { "path": "scripts/stl_viewer.min.js" },
       { "path": "scripts/parser.min.js" },
       { "path": "scripts/load_stl.min.js" },
@@ -22,7 +21,8 @@
       { "path": "scripts/OrbitControls.js" },
       { "path": "scripts/TrackballControls.js" },
       { "path": "scripts/Projector.js" },
-      { "path": "scripts/three.min.js" }
+      { "path": "scripts/three.min.js" },
+      { "path": "scripts/modelviewer.js" }
     ],
     "preloadedCss": [
       { "path": "modelviewer.css" }
