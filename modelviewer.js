@@ -1,6 +1,6 @@
 var H5P = H5P || {};
  
-H5P.ModelViewer = (function ($) {
+H5P.ModelViewer = (function ($, THREE) {
   /**
    * Constructor function.
    */
