@@ -3,15 +3,15 @@
  * Development repository: https://github.com/kaisalmen/WWOBJLoader
  */
 
-import {
-	DefaultLoadingManager,
-	FileLoader,
-	Group
-} from "../../../build/three.module.js";
+// import {
+// 	DefaultLoadingManager,
+// 	FileLoader,
+// 	Group
+// } from "../../../build/three.module.js";
 
-import { OBJLoader2Parser } from "./obj2/worker/parallel/OBJLoader2Parser.js";
-import { MeshReceiver } from "./obj2/shared/MeshReceiver.js";
-import { MaterialHandler } from "./obj2/shared/MaterialHandler.js";
+// import { OBJLoader2Parser } from "./obj2/worker/parallel/OBJLoader2Parser.js";
+// import { MeshReceiver } from "./obj2/shared/MeshReceiver.js";
+// import { MaterialHandler } from "./obj2/shared/MaterialHandler.js";
 
 /**
  * Use this class to load OBJ data from files or to parse OBJ data from an arraybuffer
